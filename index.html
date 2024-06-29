@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Simon Game</h2>
+    <h3>click any Box to Start the Game</h3>
+    <div class="container">
+        <div class="fourBox">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
+        </div>
+    </div>
+    
+    <div class="score">
+        <span id="maxScore">maxScore</span>
+        <span id="currScore">currScore</span>
+    </div>
+
+    <audio src="simonSays Assets/select-sound-121244.mp3" id="clickSound"></audio>
+    <audio src="simonSays Assets/game-over-arcade-6435.mp3" id="gameOver"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
